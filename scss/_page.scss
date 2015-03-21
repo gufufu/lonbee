@@ -1,0 +1,181 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+
+
+
+/* Navigation =================================================== */
+.menu-button{
+	display: block;
+	float: right;
+	background: #444;
+	border: 5px solid #000;
+	padding: 7px 10px;
+	margin: 1px;
+
+	.icon-bar {
+		display: block;
+		width: 18px;
+		height: 2px;
+		margin-top: 3px;
+		background-color: #fff;
+		@include rounded(1px);
+	}
+
+}
+		
+.navbar {
+	background: #1b1b1b;
+	overflow: hidden;
+	max-height:44px;
+
+	@include transition(max-height .5s);
+	&.open{
+		max-height: 220px;
+		}
+		.navbar-inner {
+		.logo{
+			display: block;
+			padding: 9px 15px;
+			font-weight: bold;
+			color: #999999;
+			margin-bottom: 4px;
+		}
+		.nav {
+			margin-bottom: 0;
+			list-style:none;
+			a {
+			@extend .logo;
+		 	}
+		}
+	}
+}
+
+
+/* Hero =================================================== */
+.hero {
+	text-align: center;
+	padding: 40px 20px;
+	@include vertical(#0ecdcd, #079595);
+	h1 {
+	 margin: 10px 0;
+	 line-height: 1em;
+	 font-size: 45px;
+	 font-weight: bold;
+	 text-shadow: -1px 1px 0px #918C86;
+	}
+	p {
+	font-size: 18px;
+	margin: 0 0 30px 0;
+	font-weight: 200;
+	line-height: 1.25;
+	}
+	.btn {
+	text-shadow: 1px 1px 0px #000000;
+	}
+}
+
+/* Portfolio Gallery =================================================== */
+
+.page-header {
+	text-align: center;
+	padding: 40px 20px;
+	margin-bottom:1.5rem;
+	@include vertical(#ffb500, #ff8200);
+	h1 {
+		margin: 0;
+		padding: 10px;
+		line-height: 1em;
+		font-size: 45px;
+		font-weight: bold;
+		text-shadow: -1px 1px 0px #918C86;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	.back {
+	float: left;
+	}
+}
+.gallery-showcase {
+	.featured-image-item {
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+} 
+ul {
+	list-style: none;
+}
+.thumbnail {
+	float: left;
+	margin: 0 20px 20px 0;
+	&.active {
+		border: 3px solid $secondbasecolor;
+		margin: 0 20px 20px 0;
+	}
+}
+.gallery-description {
+	clear: left;
+}
+.gallery-showcase, .gallery-description {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Footer =================================================== */
+footer {
+	padding: 15px 0; 
+	text-align: center; 
+	background: #1b1b1b; 
+	color: $white; 
+	overflow: auto;
+	p{
+       padding: 7px 10px;
+    }
+    .social {
+       list-style: none;
+       margin: 0 auto;
+       width: 280px;
+       	li{
+	       	float: left; 
+	       	height: 80px; 
+	       	width: 80px; 
+	       	list-style: none; 
+	       	border-radius: 50%; 
+	       	background: #000; 
+	       	margin-right: 20px; 
+	       	a{
+	        font-size: 42px;
+	        padding-top: 25px;
+	        color: $lightgrey;
+	           &:visited {
+	             color: $grey;
+	             text-decoration: none;
+	           }
+	           &:hover{
+	             text-decoration: none;
+	            } 
+        	}
+    	}
+       li:last-child {
+         margin-right: 0;
+       }
+	} 
+	.toplink{
+		clear:both; 
+		a{
+      	display:inline-block;
+      	padding:10px;
+      	color: #fff;
+    	}
+	} 
+}
+		/* =================================================== */

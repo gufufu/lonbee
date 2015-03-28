@@ -20,6 +20,9 @@
 	  },
 
 
+    
+
+
 	  watch: {
 	   js: {
 	    files: ['js/**/*.js'],
@@ -79,6 +82,7 @@
 		grunt.loadNpmTasks('grunt-contrib-watch');
 		grunt.loadNpmTasks('grunt-contrib-connect');
 		grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-gm-picturefill');
 		grunt.registerTask('default', ['concat', 'watch', 'sass']);
 		
 	};

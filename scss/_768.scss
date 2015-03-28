@@ -26,16 +26,18 @@
      display: none;
 }
 .navbar {
-     position: fixed;
+     //position: fixed;
      width: 100%;
+     padding-top: 1rem;
     .logo {
       float: left;
     }
     .nav {
-    	margin-left: 55%;
+    	margin-left: 37%;
 	    li {
 	      float: left;
 	      display: inline-block;
+
 		}
 	}
 }
@@ -43,15 +45,24 @@
 
 /* Hero =================================================== */
 
-	.jumbo { 
-		h1 {
-	       font-size: 108px;
-	       padding-top: 40px;
-	    }
-	    p {
-	       font-size: 40px;
-		}
+.jumbo { 
+	.text{
+		top: 20px;
+		
 	}
+	h1.top {
+	   font-size: 28px;
+	   padding-top: 1rem;
+	   margin-left: 0;
+	   }
+	h1.bot {
+	   font-size: 28px;
+	   }
+}
+
+
+/* Articles =================================================== */
+
 
 
 /* Footer =================================================== */

@@ -22,3 +22,14 @@ max-width : 1920px; }
 // 7. VENDOR-SPECIFIC 		==============================
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================
+
+.jumbo { 
+    h1.top {
+       font-size: 56px;
+       padding-top: 1rem;
+       margin-left: 0;
+       }
+    h1.bot {
+       font-size: 48px;
+       }
+}

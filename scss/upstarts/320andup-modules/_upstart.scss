@@ -9,12 +9,6 @@
 
 // ==========================================================
 
-.grid {
-	background-color: red;
-margin-bottom : $baseline;
-//border-bottom : 1px dashed lighten($basecolor, 60%); 
-}
-
 .grid:last-child {
 margin-bottom : 0;
 border-bottom-width : 0; }
@@ -35,33 +29,44 @@ font-weight : bold;
 line-height : 44px;
 text-align : center; }
 
+
 // 480px
 @media only screen and (min-width: 480px) {
 /* Styles */
 
-}
 
 // 600px
 @media only screen and (min-width: 600px) {
 /* Styles */
-	.grids-three .grid-a {
-	float : left;
-	width : 100%;
-	height: auto;
+
+
+	.grids-two .grid-1{
+		float:left;
+		width: 50%;
+		height: 100%;
+		.text{
+			width: 40%;
+		}
+	}
+	.grids-two .grid-2{
+		float:right;
+		width: 50%;
+		height: 100%;
 	}
 }
 
 // 768px
 @media only screen and (min-width: 768px) {
 
-// grids-three
-.grid{
-	width: 100%;
+
 }
 
+// grids-three
+
 .grids-three .grid-a {
-float : left;
+//float : left;
 width : 100%;
+background-size:cover;
 height: auto;
 }
 
@@ -85,6 +90,9 @@ margin-right : 2.53%; }
 // 992px
 @media only screen and (min-width: 992px) {
 
+
+
+
 // grids-three
 
 .grids-three .grid {
@@ -101,8 +109,8 @@ margin-right : 0; }
 .grids-three .grid .grid-a {
 float : none;
 width : 100%;
-margin-right : 0;
-margin-bottom : $baseline / 2; }
+margin-right : 0;}
+//margin-bottom : $baseline / 2; }
 
 // grids-four
 

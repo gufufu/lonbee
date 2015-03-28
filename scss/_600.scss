@@ -20,11 +20,51 @@
 // 9. TEMPLATE SPECIFICS 	==============================
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .subhead h1 {
-	font-size: 60px;
-	padding-top: 40px;
+	font-size: 46px;
+	//padding-top: 40px;
 }
+
+/* Hero =================================================== */
+
+.jumbo { 
+	//text-align: left;
+	.text{
+		top: 8px;
+		left: 20px;
+	}
+	h1.top {
+	   font-size: 24px;
+	   padding-top: 1rem;
+	   margin-left: 0;
+	   }
+	h1.bot {
+	   font-size: 24px;
+	   }
+}
+
+/* grids grids-two =================================================== */
+.grid-1{
+	position: relative;
+	overflow: hidden;
+	.text{
+		top: 33%;
+	    left: 15%;
+		h1.etiquet{
+			color: #fff;
+			padding-right: 50px;
+			font-size: 30px;
+			font-style: italic;
+			font-weight: 100;
+			text-transform: uppercase;
+			line-height: .8em;
+			margin-bottom: .3rem;
+		}
+	}
+}
+
+/*  =================================================== */

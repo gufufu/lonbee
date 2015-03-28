@@ -1,0 +1,21 @@
+{
+  "name": "gruntLonPort",
+  "version": "0.0.2",
+  "homepage": "https://github.com/gufufu/lonbee",
+  "authors": [
+    "gufufu <vitormarinho@gufufu.co.uk>"
+  ],
+  "description": "lonnies portfolio 320andup website",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.2"
+  }
+}

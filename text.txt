@@ -1,0 +1,64 @@
+
+/* Hero SCSS =================================================== */
+img{
+	 	top: 0;
+	 	width: 100%;
+	 	max-width: 100%;
+	 	max-height: 400px;
+ 	}
+	h1 {
+	 color: #fff;
+	 font-size: 36px;
+ 	 font-weight: 100;
+ 	 font-style: italic;
+ 	 text-transform: uppercase;
+	 margin: 10px 0, 0, 0;
+	 line-height: .8em;
+	 margin-bottom: .5rem;
+	}
+	.text{
+		position: absolute;
+		top: 50px;
+		left: 40px;
+		h1.top{
+			padding-top:1.5rem;
+			padding-bottom: 1rem;
+			top:0;
+			left: 0;
+		}
+		h1.bot{
+			padding-bottom: 5rem;
+		}
+	}
+
+
+
+
+
+/* Hero Jumbo =================================================== */
+	<div class="hero jumbo">
+	
+		
+		<img id="link1"
+		         	src="assets/rsized/banner/small.png"
+		         	srcset=	"assets/rsized/banner/largex1.png 1366w"
+		         			"assets/rsized/banner/largex2.png 2672w"
+		         			"assets/rsized/banner/tabletx1.png 800w"
+		         			"assets/rsized/banner/tabletx2.png 1600w"
+		         			"assets/imgs/indexpage/ht1.jpg 500w"
+		         			"assets/rsized/banner/mobilex1.png 1000w"
+		         			"assets/rsized/banner/small.png 320w"
+		         	sizes="(min-width: 900px) 33vw,(min-width: 600px) 50vw, 100vw"
+		         	alt="banner_image" />
+			<div class="text">
+				 <h1 class="top">Graphic <br> Design</h1>
+				 <h1 class="bot">Creative <br> Artwork</h1>	
+			 </div>
+	
+</div><!-- / hero -->
+
+
+
+
+/* Hero Jumbo =================================================== */
+

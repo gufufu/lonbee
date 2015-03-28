@@ -92,12 +92,11 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="logo" href="./">Logo</a>
+				<a class="logo" href="./">Lonnie Bee</a>
 	 			<ul class="nav">
-				 	<li><a href="./index.html">Home</a></li>
 				 	<li><a href="./pages/about.html">About</a></li>
 	 				<li><a href="./pages/portfolio.html">Portfolio</a></li>
-	 				<li><a href="./contact.html">Contact</a></li>
+	 				<li><a href="./pages/contact.html">Contact</a></li>
 	 			</ul>
 	 		</div>
 	 	</div>
@@ -106,13 +105,26 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 
 
-<div class="hero jumbo">
-	<div class="container">
-	 <h1>Lon's Portfolio</h1>
-		<p> YOLO so I will create a hell of a  progressively enhanced responsive design website while providing fall backs to older browsers vero scenester, semiotics next level flannel Austin
-			shoreditch portland 33 wolfs and a little pig moon chillwave gentrify consequat tousled retro. Umami tonx ennui cliche delectus pinterest, in excepteur hashtag before they sold out.
-		</p>
-	</div><!-- / container -->
+
+	<div class="hero jumbo">
+	
+		
+		<img id="link1"
+		         	src="assets/rsized/banner/small.png"
+		         	srcset=	"assets/rsized/banner/large_250h.png 1366w,
+		         			assets/rsized/banner/largex2.png 2672w,
+		         			assets/rsized/banner/tabletx1.png 800w,
+		         			assets/rsized/banner/tabletx2.png 1600w,
+		         			assets/rsized/banner/mobilex1.png 500w,
+		         			assets/rsized/banner/mobilex2.png 1000w,
+		         			assets/rsized/banner/small.png 320w"
+		         	sizes="(min-width: 500px) 100vw,(min-width: 800px) 100vw"
+		         	alt="banner_image" />
+			<div class="text">
+				 <h1 class="top">Graphic <br> Design</h1>
+				 <h1 class="bot">Creative <br> Artwork</h1>	
+			 </div>
+	
 </div><!-- / hero -->
 
 
@@ -124,25 +136,41 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 	       <div class="header header-link clearfix">
 	       </div>
 		    <div class="grid grid-1 clearfix">
-		         <p class="grid-a"><img src="assets/img/caw_lg.jpg" alt=""></p>
-		         <h3 class="h2"><a href="#">Creative Artworker</a></h3>
-		         <p>Artwork and design of fashion catalogues for UK, Germany,
-					USA and Canada.
-					Creative ideas for page layouts, photography, styling and marketing. Creating emails and web ready graphics.</p>
-		    </div>
+		        <p class="grid-a">
+		         	
+		         	<picture>
+			         	<source media="(min-width: 768px)" srcset="assets/imgs/cat/kitten-large.png">
+			         	<source media="(min-width: 600px)" srcset="assets/imgs/cat/kitten-medium.png">
+			         	<!-- img tag for browsers that do not support picture element -->
+					    <img src="assets/imgs/cat/kitten-small.png" alt="a cute kitten">
+				    </picture>
+
+
+		         </p>
+		        
+		     </div>
 		    
 		    <div class="grid grid-2 clearfix">
-		         <p class="grid-a"><img src="assets/img/GraphicDesigner.jpg" alt=""></p>
-		         <h3 class="h2"><a href="#">Design & Artwork</a></h3>
-		         <p>Responsible for all studio work; planning and art direction of 		photoshoots (selection of the models, locations and final 			photos).
-					Artwork and design of catalogues and brand campaign books. Creating promotional flyers and POS for stores, fairs and equestrian events.
-					Design of advertisements, packaging and mailings.</p>
+		         <p class="grid-a">
+		         	<picture>
+			         	<source media="(min-width: 768px)" srcset="assets/imgs/bear/bear-large.jpg">
+			         	<source media="(min-width: 600px)" srcset="assets/imgs/bear/bear-medium.png">
+			         	<!-- img tag for browsers that do not support picture element -->
+					    <img src="assets/imgs/bear/bear-small.jpg" alt="a cute bear">
+				    </picture>
+		         </p>
+		         
 		    </div>
 		     
 		    <div class="grid grid-3 clearfix">
-		         <p class="grid-a"><img src="assets/img/410x230.png" alt=""></p>
-		         <h3 class="h2"><a href="#">get in touch</a></h3>
-		         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		         <p class="grid-a">
+		         	<picture>
+			         	<source media="(min-width: 768px)" srcset="assets/imgs/portf/portfolio_320/gdesign_940.png">
+			         	<source media="(min-width: 600px)" srcset="assets/imgs/portf/portfolio_320/gdesign_640.png">
+			         	<!-- img tag for browsers that do not support picture element -->
+					    <img src="assets/imgs/portf/portfolio_320/gdesign_320.png" alt="a cute bear">
+				    </picture>
+		         </p>
 		    </div>
 	     
 		</div><!-- / grids -->
@@ -151,19 +179,16 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 </div><!-- / content -->
 
 
-
+<!-- FOOTER ============================================================================= -->
 <footer role="contentinfo">
 	<div class="container">
-       <h4>Let's build something awesome together.</h4>
-       <p>Connect with me in any of the following ways</p>
        <ul class="social">
-         <li><a class="icon-facebook-sign" href="#"></a></li>
+         <li><a class="icon-camera" href="#"></a></li>
          <li><a class="icon-twitter-sign" href="#"></a></li>
          <li><a class="icon-envelope" href="mailto:something@yourmail.com"></a></li>
+         <li><a class="icon-chevron-up" href="#"></a></li>
 ￼    	</ul>
-	    <div class="toplink">
-	      <a href="#">Top</a>
-	    </div>
+	   
   	</div>
 </footer>
 
@@ -175,6 +200,9 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
 <script src="js/helper.js"></script>
+<script src="js/picturefill.js"></script>
+
+
 <script>
 var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;

@@ -19,21 +19,56 @@
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================
 
+/* Navbar =================================================== */
 .navbar {
-     position: fixed;
+     //position: fixed;
      width: 100%;
     .logo {
       float: left;
     }
     .nav {
-    	margin-left: 60%;
-	    li {
-	      float: left;
-	      display: inline-block;
-		}
-	}
+        margin-left: 52%;
+        li {
+          float: left;
+          display: inline-block;
+        }
+    }
 }
 
-footer{
-	width:100%;
+/* Hero =================================================== */
+.jumbo { 
+    .text{
+    top: 20px;
+    }
+    h1.top {
+       font-size: 52px;
+       padding-top: 1rem;
+       margin-left: 0;
+       }
+    h1.bot {
+       font-size: 42px;
+       }
 }
+
+/* grids grids-two =================================================== */
+.grid-1{
+  .text{
+    top: 33%;
+      left: 25%;
+    h1.etiquet{
+      color: #fff;
+      font-size: 46px;
+      font-style: italic;
+      font-weight: 100;
+      text-transform: uppercase;
+      margin: 10px 0, 0, 0;
+      line-height: .8em;
+      margin-bottom: .3rem;
+    }
+  }
+}
+
+/* Footer =================================================== */
+
+
+/*  =================================================== */
